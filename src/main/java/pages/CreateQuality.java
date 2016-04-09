@@ -107,11 +107,11 @@ public class CreateQuality extends BasePage{
 		qualitymanagement.click();
 		Thread.sleep(2000);
 		qualitylibrary.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		lastupdated.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		lastupdated.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		String selectquality1 = selectquality.iterator().next().getText();
 		System.out.println("Get the text of newlycreated quality" +selectquality1);
 		VerifyUtils.contains(expectedres, selectquality1);
